@@ -1,0 +1,114 @@
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	overflow: hidden
+}
+
+/***********Header***********/
+
+header {
+	display: flex;
+	align-content: center;
+	width: 100%;
+	height: 75px;
+	background-image: -moz-linear-gradient(to bottom right, #05622a, #13483b);
+	border-bottom: 1px solid black;
+}
+
+header img {
+	padding: 7px 0 7px 13px;
+}
+
+h1 {
+	padding: 12px;
+	margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/**********Body*************/
+
+body {
+	background-image: url("../images/desert-meetup.jpg");
+	background-position: center, center;
+}
+
+main {
+	text-align: center;
+}
+
+.main-content {
+	width: 75%;
+	height: 300px;
+	margin: 100px auto 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+#quote-display {
+	text-align: left;
+    font-size: 35px;
+}
+
+#author-display {
+	text-align: right;
+	font-size: 15px;
+	font-style: italic;
+}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+}
+
+.btn {
+	display: inline-block;
+	background-image: -moz-linear-gradient(to bottom right, #05622a, #13483b);
+	margin: 1px;
+	opacity: 0.88;
+	border: 1px solid;
+	border-radius: 1px;
+	font-family: 'roboto mono', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	font-weight: bold;
+	opacity: 1;
+}
+
+.btn-large {
+	height: 35px;
+	width: 175px;
+
+}
+
+.btn-small{
+	height: 35px;
+	width: 75pxpx;
+}
+
+/*********Footer*************/
+
+footer {
+	display: flex;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 45px;
+
+}
+
+footer p {
+	padding-left: 10px;
+	font-size: 15px;
+}
